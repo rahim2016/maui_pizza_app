@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizza.Maui.Pages.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="DarkGoldenrod">
+
+    <Grid RowDefinitions="auto,*,auto" 
+          Padding="15,25">
+
+        <Label Grid.Row="0" 
+               Text="Pizza World" 
+               FontSize="40" 
+               TextColor="#1E1E1E" 
+               HorizontalOptions="Center" 
+               FontAttributes="Bold"/>
+
+        <Image Grid.Row="1" 
+               Source="pizza.png" 
+               HeightRequest="180" 
+               WidthRequest="180" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"/>
+
+        <VerticalStackLayout Grid.Row="2" Spacing="11">
+
+            <Label Text="The Taste of Italian Pizza"
+                   FontSize="30" 
+                   FontAttributes="Bold" 
+                   TextColor="#1E1E1E"/>
+
+            <Label Text="Feel the test of mouth watering pizza from it's original country" 
+                   FontSize="15" 
+                   LineHeight="1.2" 
+                   TextColor="#1E1E1E"/>
+
+            <Border StrokeShape="RoundRectangle 25" 
+                    BackgroundColor="Goldenrod" 
+                    HeightRequest="50" 
+                    StrokeThickness="0">
+
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Border.GestureRecognizers>
+
+                <HorizontalStackLayout HorizontalOptions="Center" 
+                                       VerticalOptions="Center" 
+                                       Spacing="10" 
+                                       Padding="0,5">
+
+                    <Label Text="Get Started" 
+                           VerticalOptions="Center" 
+                           FontSize="15" 
+                           TextColor="#1E1E1E"/>
+
+                    <Image Source="right_arrow.png" 
+                           VerticalOptions="Center" 
+                           HeightRequest="20"/>
+
+                </HorizontalStackLayout>
+
+            </Border>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>

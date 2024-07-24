@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizza.Maui.Pages.DetailsPage"
+             xmlns:models="clr-namespace:Pizza.Maui.Models"
+             xmlns:vm="clr-namespace:Pizza.Maui.ViewModels"
+             xmlns:toolkits="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title=""
+             Shell.NavBarIsVisible="False"
+             x:DataType="vm:DetailsViewModel">
+
+    <ContentPage.Behaviors>
+        <toolkits:StatusBarBehavior StatusBarColor="DarkGoldenrod"/>
+    </ContentPage.Behaviors>
+
+    <Grid>
+        <ScrollView Padding="15">
+            <VerticalStackLayout Spacing="15">
+                <Image Source="{Binding Pizza.Image}"
+                       WidthRequest="200"
+                       HeightRequest="200"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                <Label Text="{Binding Pizza.Name}"
+                       TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+
+                <Grid ColumnDefinitions="*,*">
+                    <Label Grid.Column="0"
+                           Text="{Binding Pizza.Price, StringFormat='${0:N2}'}"
+                           FontAttributes="Bold"
+                           TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                           FontSize="18"/>
+                    <HorizontalStackLayout Grid.Column="1"
+                                           HorizontalOptions="End"
+                                           Spacing="2"
+                                           VerticalOptions="Center">
+                        <Label Text="4"
+                               TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                               FontSize="18"/>
+                        <Image Source="star"
+                               HeightRequest="15"
+                               WidthRequest="15">
+                            <Image.Behaviors>
+                                <toolkits:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                            </Image.Behaviors>
+                        </Image>
+                    </HorizontalStackLayout>
+                </Grid>
+
+                <Label Text="Description"
+                       TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                       FontSize="15"
+                       FontAttributes="Bold"
+                       Margin="0,10"/>
+
+                <Label FontSize="14"
+                       Text="This is a random description for this pizza so 
+                       we can display this on the pizza details page. This 
+                       is a random description for this pizza so we can display 
+                       this on the pizza details page. This is a random description
+                       for this pizza so we can display this on the pizza details page."
+                       TextType="Html"
+                       LineHeight="1.5"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <Border x:Name="bottomBox"
+                StrokeShape="{OnPlatform Android='RoundRectangle 30,30,0,0', iOS='RoundRectangle 0'}"
+                StrokeThickness="0"
+                BackgroundColor="DarkGoldenrod"
+                VerticalOptions="End"
+                HeightRequest="70"
+                Padding="15"
+                Margin="-1">
+            <Border.Shadow>
+                <Shadow Brush="Gold"
+                        Radius="10"/>
+            </Border.Shadow>
+        </Border>
+    </Grid>
+</ContentPage>

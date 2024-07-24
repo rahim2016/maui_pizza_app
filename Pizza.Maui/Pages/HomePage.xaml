@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizza.Maui.Pages.HomePage"
+             xmlns:models="clr-namespace:Pizza.Maui.Models"
+             xmlns:vm="clr-namespace:Pizza.Maui.ViewModels"
+             xmlns:toolkits="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="Pizza World" Padding="15"
+             x:DataType="vm:HomeViewModel">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10">
+            <Border StrokeShape="RoundRectangle 10" 
+                    StrokeThickness="0" 
+                    BackgroundColor="Goldenrod" 
+                    VerticalOptions="Start" 
+                    Padding="15">
+
+                <Grid ColumnDefinitions="*,150" 
+                      RowDefinitions="*,auto">
+
+                    <VerticalStackLayout Grid.Row="0" 
+                                         Grid.Column="0" 
+                                         Spacing="8">
+
+                        <Label Text="Best Offer" 
+                               FontSize="25" 
+                               FontAttributes="Bold" 
+                               VerticalOptions="Center"/>
+
+                        <Label Text="Grab this amazing offer before it expires" 
+                               FontSize="10"/>
+
+                    </VerticalStackLayout>
+
+                    <Button Grid.Row="1" 
+                            Grid.Column="0" 
+                            Text="Get it now" 
+                            BackgroundColor="PaleGoldenrod" 
+                            TextColor="Black" 
+                            FontAttributes="Bold"
+                            CornerRadius="22" 
+                            HorizontalOptions="Start" 
+                            Padding="50,0"/>
+
+                    <Image Source="pizza8.png"
+                           Grid.RowSpan="2" 
+                           Grid.Column="1" 
+                           HeightRequest="130"
+                           WidthRequest="130"/>
+                </Grid>
+            </Border>
+            <Border StrokeShape="RoundRectangle 20"
+                    StrokeThickness="1"
+                    Stroke="Goldenrod" 
+                    BackgroundColor="Transparent">
+
+                <Label Text="Search here..."
+                       TextColor="Goldenrod"
+                       FontSize="15"
+                       Padding="10,14">
+
+                </Label>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GoToAllPizzasPageCommand}"
+                                          CommandParameter="{x:Boolean true}"/>
+                </Border.GestureRecognizers>
+            </Border>
+
+
+
+            <Grid ColumnDefinitions="*,*" Margin="0,20,0,0">
+
+                <Label Grid.Column="0"
+                       Text="Popular items"
+                       VerticalOptions="Start"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                <Label Grid.Column="1"
+                      Text="View all"
+                      HorizontalOptions="End"
+                       VerticalOptions="End"
+                      TextDecorations="Underline">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToAllPizzasPageCommand}"
+                                              CommandParameter="{x:Boolean false}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <FlexLayout BindableLayout.ItemsSource="{Binding Pizzas}" Wrap="Wrap">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="models:Pizza">
+                        <Border FlexLayout.Basis="50%" StrokeShape="RoundRectangle 10"
+                                StrokeThickness="0"
+                                BackgroundColor="PaleGoldenrod"
+                                Padding="10"
+                                Margin="2">
+
+                            <Grid RowDefinitions="150,auto,auto,auto"
+                                  RowSpacing="5">
+                                <Image Grid.Row="0"
+                                       Source="{Binding Image}"
+                                       HeightRequest="150"
+                                       WidthRequest="130"
+                                       />
+                                <Label Grid.Row="1" 
+                                       Text="{Binding Name}"
+                                       TextColor="Black"
+                                       HorizontalOptions="Center"
+                                       FontSize="15"/>
+
+                                <Grid Grid.Row="2"
+                                      ColumnDefinitions="*,*">
+                                    <Label Grid.Column="0"
+                                           Text="{Binding Price, StringFormat='${0:N2}'}"
+                                           TextColor="Black"
+                                           FontAttributes="Bold"/>
+
+                                    <HorizontalStackLayout Grid.Column="1"
+                                                           HorizontalOptions="End"
+                                                           Spacing="2"
+                                                           VerticalOptions="Center">
+                                        <Label Text="4"
+                                               TextColor="Black"/>
+                                        <Image Source="star"
+                                             HeightRequest="10"
+                                             WidthRequest="10">
+                                            <Image.Behaviors>
+                                                <toolkits:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+                                            </Image.Behaviors>
+                                        </Image>
+                                    </HorizontalStackLayout>
+                                </Grid>
+
+                                <Button Grid.Row="3"
+                                        Text="View more"
+                                        BackgroundColor="Gold"
+                                        TextColor="Black"
+                                        CornerRadius="22"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="End"
+                                        HorizontalOptions="Center"
+                                        Padding="25, 0"
+                                        Command="{Binding Source={x:RelativeSource 
+                                                          AncestorType={x:Type vm:HomeViewModel}}, 
+                                                          Path=GoToDetailsPageCommand}"
+                                        CommandParameter="{Binding .}"/>
+                            </Grid>
+
+                        </Border>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+
+            </FlexLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
