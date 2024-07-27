@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pizza.Maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8f392e1456d328b64b7151c7f41e897bcf50ed1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pizza.Maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pizza.Maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
