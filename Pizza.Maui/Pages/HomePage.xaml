@@ -58,7 +58,10 @@
                 <Label Text="Search here..."
                        TextColor="Goldenrod"
                        FontSize="15"
-                       Padding="10,14">
+                       Padding="10,14"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center">
 
                 </Label>
                 <Border.GestureRecognizers>

@@ -10,8 +10,19 @@
              x:DataType="vm:DetailsViewModel">
 
     <ContentPage.Behaviors>
-        <toolkits:StatusBarBehavior StatusBarColor="DarkGoldenrod"/>
+        <toolkits:StatusBarBehavior StatusBarColor="{AppThemeBinding Dark=Transparent, Light=White}" 
+                                    StatusBarStyle="{AppThemeBinding Dark=LightContent, Light=DarkContent}"/>
     </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="QuantityBtn" TargetType="ImageButton">
+                <Setter Property="HeightRequest" Value="30"/>
+                <Setter Property="WidthRequest" Value="30"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <Grid>
         <ScrollView Padding="15">
@@ -71,13 +82,78 @@
                 StrokeThickness="0"
                 BackgroundColor="DarkGoldenrod"
                 VerticalOptions="End"
-                HeightRequest="70"
+                HeightRequest="150"
                 Padding="15"
                 Margin="-1">
             <Border.Shadow>
                 <Shadow Brush="Gold"
-                        Radius="10"/>
+                        Radius="5"/>
             </Border.Shadow>
+
+            <Grid RowDefinitions="Auto, Auto"
+                  ColumnDefinitions="*,*">
+                <Label Grid.Row="0"
+                       Grid.Column="0"
+                       Text="{Binding Pizza.Amount, StringFormat='${0:N2}'}"
+                       FontSize="20"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Grid Grid.Row="0"
+                      Grid.Column="1"
+                      ColumnDefinitions="50,40,50"
+                      HorizontalOptions="End"
+                      VerticalOptions="Center">
+                    <ImageButton Grid.Column="0"
+                                 Source="minus"
+                                 Style="{StaticResource QuantityBtn}"
+                                 Command="{Binding RemoveFromCartCommand}"
+                                >
+                        <ImageButton.Behaviors>
+                            <toolkits:IconTintColorBehavior TintColor="Gold"/>
+                        </ImageButton.Behaviors>
+                    </ImageButton>
+                    <Label Grid.Column="1"
+                           Text="{Binding Pizza.CartQuantity}"
+                           TextColor="White"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           FontSize="25"/>
+                    <ImageButton Grid.Column="2"
+                                 Source="plus"
+                                 Style="{StaticResource QuantityBtn}"
+                                 Command="{Binding AddToCartCommand}">
+                        <ImageButton.Behaviors>
+                            <toolkits:IconTintColorBehavior TintColor="Gold"/>
+                        </ImageButton.Behaviors>
+                    </ImageButton>
+
+                </Grid>
+
+                <Button Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        Text="View Cart"
+                        BackgroundColor="Goldenrod"
+                        HorizontalOptions="Center"
+                        CornerRadius="22"
+                        TextColor="White"
+                        Padding="80,10"
+                        Margin="0,20"
+                        VerticalOptions="End"
+                        Command="{Binding ViewCartCommand}"/>
+            </Grid>
         </Border>
+        <ImageButton Source="{OnPlatform Android='right_arrow', Default='back'}"
+              VerticalOptions="Start"
+              HorizontalOptions="Start"
+              RotationY="{OnPlatform Android=180, Default=0}"
+              Margin="15"
+                     HeightRequest="30"
+                     WidthRequest="30"
+                     Clicked="ImageButton_Clicked">
+            <ImageButton.Behaviors>
+                <toolkits:IconTintColorBehavior TintColor="DarkGoldenrod"/>
+            </ImageButton.Behaviors>
+        </ImageButton>
     </Grid>
 </ContentPage>

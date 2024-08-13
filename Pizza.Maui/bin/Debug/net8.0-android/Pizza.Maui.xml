@@ -33,11 +33,66 @@
         <member name="P:Pizza.Maui.ViewModels.AllPizzasViewModel.GoToDetailsPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.AllPizzasViewModel.GoToDetailsPage(Pizza.Maui.Models.Pizza)"/>.</summary>
         </member>
+        <member name="T:Pizza.Maui.ViewModels.CartViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.CartViewModel.TotalAmount">
+            <inheritdoc cref="F:Pizza.Maui.ViewModels.CartViewModel._totalAmount"/>
+        </member>
+        <member name="F:Pizza.Maui.ViewModels.CartViewModel.updateCartItemsCommand">
+            <summary>The backing field for <see cref="P:Pizza.Maui.ViewModels.CartViewModel.UpdateCartItemsCommand"/>.</summary>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.CartViewModel.UpdateCartItemsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.CartViewModel.UpdateCartItems(Pizza.Maui.Models.Pizza)"/>.</summary>
+        </member>
+        <member name="F:Pizza.Maui.ViewModels.CartViewModel.removeCartItemCommand">
+            <summary>The backing field for <see cref="P:Pizza.Maui.ViewModels.CartViewModel.RemoveCartItemCommand"/>.</summary>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.CartViewModel.RemoveCartItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.CartViewModel.RemoveCartItem(System.String)"/>.</summary>
+        </member>
+        <member name="F:Pizza.Maui.ViewModels.CartViewModel.clearCartCommand">
+            <summary>The backing field for <see cref="P:Pizza.Maui.ViewModels.CartViewModel.ClearCartCommand"/>.</summary>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.CartViewModel.ClearCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.CartViewModel.ClearCart"/>.</summary>
+        </member>
+        <member name="F:Pizza.Maui.ViewModels.CartViewModel.placeOrderCommand">
+            <summary>The backing field for <see cref="P:Pizza.Maui.ViewModels.CartViewModel.PlaceOrderCommand"/>.</summary>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.CartViewModel.PlaceOrderCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.CartViewModel.PlaceOrder"/>.</summary>
+        </member>
         <member name="T:Pizza.Maui.ViewModels.DetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
             <inheritdoc/>
         </member>
         <member name="P:Pizza.Maui.ViewModels.DetailsViewModel.Pizza">
             <inheritdoc cref="F:Pizza.Maui.ViewModels.DetailsViewModel._pizza"/>
+        </member>
+        <member name="F:Pizza.Maui.ViewModels.DetailsViewModel.addToCartCommand">
+            <summary>The backing field for <see cref="P:Pizza.Maui.ViewModels.DetailsViewModel.AddToCartCommand"/>.</summary>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.DetailsViewModel.AddToCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.DetailsViewModel.AddToCart"/>.</summary>
+        </member>
+        <member name="F:Pizza.Maui.ViewModels.DetailsViewModel.removeFromCartCommand">
+            <summary>The backing field for <see cref="P:Pizza.Maui.ViewModels.DetailsViewModel.RemoveFromCartCommand"/>.</summary>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.DetailsViewModel.RemoveFromCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.DetailsViewModel.RemoveFromCart"/>.</summary>
+        </member>
+        <member name="F:Pizza.Maui.ViewModels.DetailsViewModel.viewCartCommand">
+            <summary>The backing field for <see cref="P:Pizza.Maui.ViewModels.DetailsViewModel.ViewCartCommand"/>.</summary>
+        </member>
+        <member name="P:Pizza.Maui.ViewModels.DetailsViewModel.ViewCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Pizza.Maui.ViewModels.DetailsViewModel.ViewCart"/>.</summary>
         </member>
         <member name="T:Pizza.Maui.ViewModels.HomeViewModel">
             <inheritdoc/>
@@ -190,6 +245,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Searching">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Searching" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalAmount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalAmount" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Pizza">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Pizza" generated properties.</summary>
         </member>
@@ -210,6 +268,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Searching">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Searching" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalAmount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalAmount" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Pizza">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Pizza" generated properties.</summary>

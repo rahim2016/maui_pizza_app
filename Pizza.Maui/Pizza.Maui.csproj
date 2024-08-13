@@ -23,7 +23,7 @@
     <Nullable>enable</Nullable>
 
     <!-- Display name -->
-    <ApplicationTitle>Pizza.Maui</ApplicationTitle>
+    <ApplicationTitle>Pizza</ApplicationTitle>
 
     <!-- App Identifier -->
     <ApplicationId>com.companyname.pizza.maui</ApplicationId>
@@ -35,12 +35,16 @@
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(TargetFramework)'=='net8.0-ios'">
+    <CodesignKey>Apple Development: Created via API (7N53S4VSBM)</CodesignKey>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+  </PropertyGroup>
+
   <ItemGroup>
     <!-- App Icon -->
-    <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
     <!-- Splash Screen -->
-    <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+    <MauiSplashScreen Include="Resources\Splash\splash.png" Color="#DAA520" BaseSize="210,260" />
 
     <!-- Images -->
     <MauiImage Include="Resources\Images\*" />
@@ -54,6 +58,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Resources\AppIcon\appicon.png" />
+    <None Remove="Resources\Images\back.png" />
+    <None Remove="Resources\Images\back_arrow.png" />
+    <None Remove="Resources\Images\check.png" />
+    <None Remove="Resources\Images\minus.png" />
     <None Remove="Resources\Images\pizza1.png" />
     <None Remove="Resources\Images\pizza10.png" />
     <None Remove="Resources\Images\pizza2.png" />
@@ -64,8 +73,11 @@
     <None Remove="Resources\Images\pizza7.png" />
     <None Remove="Resources\Images\pizza8.png" />
     <None Remove="Resources\Images\pizza9.png" />
+    <None Remove="Resources\Images\plus.png" />
     <None Remove="Resources\Images\right_arrow.png" />
     <None Remove="Resources\Images\star.png" />
+    <None Remove="Resources\Images\trash.png" />
+    <None Remove="Resources\Splash\splash.svg" />
   </ItemGroup>
 
 
@@ -73,6 +85,13 @@
 
   <ItemGroup>
     <Folder Include="Fonts\" />
+  </ItemGroup>
+
+
+
+
+  <ItemGroup>
+    <MauiIcon Include="Resources\AppIcon\appicon.png" />
   </ItemGroup>
 
 
@@ -89,6 +108,12 @@
 
   <ItemGroup>
     <MauiXaml Update="Pages\AllPizzasPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Pages\CartPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Pages\CheckoutPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Pages\DetailsPage.xaml">

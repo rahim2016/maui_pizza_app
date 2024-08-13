@@ -16,7 +16,7 @@
                FontAttributes="Bold"/>
 
         <Image Grid.Row="1" 
-               Source="pizza.png" 
+               Source="home.png" 
                HeightRequest="180" 
                WidthRequest="180" 
                VerticalOptions="Center" 

@@ -3,44 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\viewmodels\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\viewmodels\\detailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\checkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\checkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\allpizzaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\allpizzaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\checkoutpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\checkoutpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\detailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\detailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\detailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\detailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\allpizzaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\allpizzaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\platforms\\android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\platforms\\android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pages\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pages\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\pizza.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\pizza.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|c:\\users\\rahim\\projects\\maui\\pizza\\pizza.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F45752-011A-4DED-8722-C967583A9B6B}|Pizza.Maui\\Pizza.Maui.csproj|solutionrelative:pizza.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +86,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\AppShell.xaml",
-              "RelativeDocumentMoniker": "Pizza.Maui\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\AppShell.xaml",
-              "RelativeToolTip": "Pizza.Maui\\AppShell.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "DocumentIndex": 1,
+              "Title": "CheckoutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\CheckoutPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\CheckoutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\CheckoutPage.xaml.cs",
+              "RelativeToolTip": "Pizza.Maui\\Pages\\CheckoutPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:05:39.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Pizza.Maui\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T00:02:42.511Z",
+              "WhenOpened": "2024-08-13T09:33:39.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "colors.xml",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeToolTip": "Pizza.Maui\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-13T09:30:36.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Pizza.Maui\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAAIcBAAAAAAAAAAAAAJsBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-13T09:28:56.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Pizza.Maui\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T08:55:45.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Pizza.Maui\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T08:55:18.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
+              "RelativeToolTip": "Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDEAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T08:34:15.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pizza.Maui\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:49:26.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "Pizza.Maui\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "Pizza.Maui\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:47:33.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Pizza.Maui\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\MauiProgram.cs",
+              "RelativeToolTip": "Pizza.Maui\\MauiProgram.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wB8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:35:24.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\CheckoutPage.xaml",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\CheckoutPage.xaml",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\CheckoutPage.xaml*",
+              "RelativeToolTip": "Pizza.Maui\\Pages\\CheckoutPage.xaml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T23:34:47.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\App.xaml",
               "RelativeDocumentMoniker": "Pizza.Maui\\App.xaml",
@@ -87,111 +237,46 @@
               "RelativeToolTip": "Pizza.Maui\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T00:02:36.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AllPizzasPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\AllPizzasPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\AllPizzasPage.xaml.cs",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\AllPizzasPage.xaml.cs",
-              "RelativeToolTip": "Pizza.Maui\\Pages\\AllPizzasPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T00:00:55.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\ViewModels\\DetailsViewModel.cs",
-              "RelativeDocumentMoniker": "Pizza.Maui\\ViewModels\\DetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\ViewModels\\DetailsViewModel.cs",
-              "RelativeToolTip": "Pizza.Maui\\ViewModels\\DetailsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T23:09:50.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\DetailsPage.xaml",
-              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\DetailsPage.xaml",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\DetailsPage.xaml",
-              "RelativeToolTip": "Pizza.Maui\\Pages\\DetailsPage.xaml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-20T22:57:22.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
-              "RelativeToolTip": "Pizza.Maui\\Pages\\DetailsPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T22:56:56.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AllPizzasPage.xaml",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\AllPizzasPage.xaml",
-              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\AllPizzasPage.xaml",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\AllPizzasPage.xaml",
-              "RelativeToolTip": "Pizza.Maui\\Pages\\AllPizzasPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-20T22:49:50.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "Pizza.Maui\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T22:33:42.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\ViewModels\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "Pizza.Maui\\ViewModels\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\ViewModels\\HomeViewModel.cs",
-              "RelativeToolTip": "Pizza.Maui\\ViewModels\\HomeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T22:33:19.307Z",
+              "WhenOpened": "2024-08-12T23:34:28.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\HomePage.xaml",
-              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\HomePage.xaml",
-              "RelativeToolTip": "Pizza.Maui\\Pages\\HomePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Pizza.Maui\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\AppShell.xaml",
+              "RelativeToolTip": "Pizza.Maui\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-20T22:32:32.727Z",
+              "WhenOpened": "2024-08-12T23:32:16.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartPage.xaml",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\CartPage.xaml",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Pages\\CartPage.xaml",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pages\\CartPage.xaml",
+              "RelativeToolTip": "Pizza.Maui\\Pages\\CartPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T23:28:29.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pizza.Maui",
+              "DocumentMoniker": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pizza.Maui.csproj",
+              "RelativeDocumentMoniker": "Pizza.Maui\\Pizza.Maui.csproj",
+              "ToolTip": "C:\\Users\\RAHIM\\Projects\\MAUI\\Pizza\\Pizza.Maui\\Pizza.Maui.csproj",
+              "RelativeToolTip": "Pizza.Maui\\Pizza.Maui.csproj",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAuwIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T23:17:44.698Z",
               "EditorCaption": ""
             }
           ]

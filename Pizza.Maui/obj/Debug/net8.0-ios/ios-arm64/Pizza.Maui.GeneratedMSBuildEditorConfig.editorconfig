@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Pizza.Maui.Pages.AllPizzas
 build_metadata.AdditionalFiles.TargetPath = Pages\AllPizzasPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AllPizzasPage.xaml
 
+[C:/Users/RAHIM/Projects/MAUI/Pizza/Pizza.Maui/Pages/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pizza.Maui.Pages.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CartPage.xaml
+
+[C:/Users/RAHIM/Projects/MAUI/Pizza/Pizza.Maui/Pages/CheckoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pizza.Maui.Pages.CheckoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CheckoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CheckoutPage.xaml
+
 [C:/Users/RAHIM/Projects/MAUI/Pizza/Pizza.Maui/Pages/DetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Pizza.Maui.Pages.DetailsPage.xaml

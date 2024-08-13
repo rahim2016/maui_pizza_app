@@ -31,7 +31,10 @@
             services.AddSingleton<PizzaService>();
             services.AddSingletonWithShellRoute<HomePage, HomeViewModel>(nameof(HomePage));
             services.AddSingletonWithShellRoute<AllPizzasPage, AllPizzasViewModel>(nameof(AllPizzasPage));
-            services.AddSingletonWithShellRoute<DetailsPage, DetailsViewModel>(nameof(DetailsPage));
+            services.AddTransientWithShellRoute<DetailsPage, DetailsViewModel>(nameof(DetailsPage));
+            //services.AddSingletonWithShellRoute<CartPage, CartViewModel>(nameof(CartPage));
+            services.AddSingleton<CartViewModel>();
+            services.AddTransient<CartPage>();
             return services;
         }
 
